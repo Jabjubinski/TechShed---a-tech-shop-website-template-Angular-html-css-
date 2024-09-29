@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-family: monospace, sans-serif;
+  height: 100%;
+  align-items: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.shopping-categories-list {
+  background-color: hsl(0, 0%, 70%);
+  height: 45px;
+}
+.categories-item{
+  color: black;
+  transition: 400ms;
+}
+.categories-item:hover{
+  color: hsl(262, 80%, 50%);
+}
