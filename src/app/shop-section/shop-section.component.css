@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+#shop-section {
+  background-color: hsl(0, 0%, 75%);
+}
+.deals-just-in {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px 50px 0px;
+  width: 95%;
+  margin-inline: auto;
+}
+.thirtyPercent {
+  border: 1px solid black;
+  width: 49%;
+  padding: 50px;
+  background-image: url(/assets/Phone2.webp);
+  color: white;
+  border: none;
+}
+.justIn {
+  width: 49%;
+  border: 1px solid black;
+  padding: 50px;
+  background-image: url(/assets/headphones.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border: none;
+}
+.thirtypercent-btn {
+  width: 10rem;
+  border-radius: 25px;
+  border: none;
+  transition: 500ms;
+  border: 1px solid transparent;
+}
+.thirtypercent-btn:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.justIn-btn {
+  width: 10rem;
+  border-radius: 25px;
+  border: none;
+  transition: 500ms;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+.justIn-btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-color: white;
+}
+.pickup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  margin-inline: auto;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 30px 0px 25px 0px;
+  align-items: center;
+}

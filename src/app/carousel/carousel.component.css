@@ -56,9 +56,10 @@
   color: white;
   padding: 10px 10px 10px 10px;
   transition: 450ms;
+  border: 1px solid transparent;
 }
 .carousel-btn-shop-now:hover {
   background-color: white;
   color: hsl(262, 80%, 50%);
-  border: 1px solid rgb(100, 25, 230) !important;
+  border-color:rgb(100, 25, 230) !important;
 }
